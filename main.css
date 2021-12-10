@@ -1,0 +1,145 @@
+/* Write your CSS code in this file */
+* {
+    box-sizing: border-box;
+}
+
+header {
+    color: white;
+    background-color: #0a0c10;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.user_creation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.winlose_count ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    /* justify-content: space-between; */
+    /* text-decoration: none; */
+}
+.winlose_count li{
+    border: 2px solid white;
+    width: 100px;
+    height: 125px;
+    text-align: center;
+    list-style-type: none;
+}
+.winlose_count li h2{
+    text-decoration: underline;
+}
+.winlose_count li p{
+    font-size: 2rem;
+    margin-top: .5rem;
+}
+
+main {
+    color: white;
+    background-color: #010409;
+    display: flex;
+    flex-direction: column;
+}
+
+#guess_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #010409;
+    border: 2px solid white;
+    color: white;
+    margin: 10px;
+    padding: 30px;
+}
+
+.guess_input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+#game_discription {
+    background-color: #0a0c10;
+    font-size: 2rem;
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    margin-top: 50px;
+    padding-top: 20px;
+    border: 2px solid white;
+}
+
+#input_area {
+    background-color: #0a0c10;
+    border: 2px solid white;
+    /* border-radius: 50%; */
+    width: 350px;
+    height: 200px;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#user_guess {
+    font-size: 2rem;
+    color: #0a0c10;
+    border-radius: 50%;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.current_guesses {
+    color: #0a0c10;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.bottom_button_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.bottom_buttons {
+    background-color: #0a0c10;
+    border-color: white;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+#hint_array_clicked {
+    text-align: center;
+    font-size: 1.37rem;
+}
+
+#hint_description {
+    display: none;
+}
